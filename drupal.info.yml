@@ -1,0 +1,16 @@
+name: Sahil
+description: This is a Drupal 8 theme.
+type: theme
+package: Custom
+core: 8.x
+
+regions:
+  header: Items of header
+  content: Items of content
+  sidebar_first: first sidebar
+  sidebar_second: second sidebar
+  footer: Items of footer
+
+libraries:
+  - drupal/global-assets
+  - drupal/style  
